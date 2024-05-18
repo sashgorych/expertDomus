@@ -5,27 +5,12 @@
 <script src="/js/datepicker-full.min.js"></script>
 ```
 
-## сторінки авторизації
-signup.html
-    register-cleaner.html
-    register-customer.html
-    register-driver.html
-    register-mover.html
-login.html
-reset-pass.html
+
 # css та js для сторінок авторизації
 ```
 <link rel="stylesheet" href="/css/auth.css">
 <script src="/js/auth.js"></script>
-
 ```
-# header для сторінок авторизації
-```
- <header class="head-simple">
-        <a href="/" class="logo"><img src="/images/logo.png" alt="logo"></a>
-</header>
-```
-
 
 # структура всіх сторінок
 ```
@@ -52,7 +37,7 @@ reset-pass.html
     <link rel="stylesheet" href="/css/main.css">
 
 ```
-# header для всіх сторінок окрім сторінок авторизації
+# header
 ```
 <header>
     <div class="container">
