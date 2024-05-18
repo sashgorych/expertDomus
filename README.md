@@ -1,24 +1,58 @@
 # expertDomus
-# структура сторінок
-```
-
-```
-# scripts
+# scripts для всіх сторінок 
 ```
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-<script src="./js/datepicker-full.min.js"></script>
+<script src="/js/datepicker-full.min.js"></script>
+```
+
+## сторінки авторизації
+signup.html
+    register-cleaner.html
+    register-customer.html
+    register-driver.html
+    register-mover.html
+login.html
+reset-pass.html
+# css та js для сторінок авторизації
+```
+<link rel="stylesheet" href="/css/auth.css">
+<script src="/js/auth.js"></script>
+
+```
+# header для сторінок авторизації
+```
+ <header class="head-simple">
+        <a href="/" class="logo"><img src="/images/logo.png" alt="logo"></a>
+</header>
+```
+
+
+# структура всіх сторінок
+```
+<body>
+<div class="layout">
+    <header></header>
+    ....page content
+    <footer></footer>
+</div>
+</body>
+```
+
+# scripts для головної
+```
 <script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js'></script>
 <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
 <script type='text/javascript' src='./js/main.js'></script>
 ```
-# styles 
+
+# styles для головної
 ```
-    <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
-    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="/css/main.css">
+
 ```
-# header
+# header для всіх сторінок окрім сторінок авторизації
 ```
 <header>
     <div class="container">
